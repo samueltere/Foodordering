@@ -1,0 +1,163 @@
+/* Define the font and background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+    
+
+  }
+
+  body {
+    background-image: url('../images/backG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Center the login form vertically and horizontally */
+  .login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Style the input fields and login button */
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;/*
+    Author: samuel Terefe;
+    theme: Food order website admin;
+    */
+    *{
+      margin: 0;
+      padding: 0;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    .wrapper{
+      padding: 1%;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .text-center{
+      text-align:center;
+    }
+    .clearfix{
+      float: none;
+      clear: both;
+    }
+    .tbl-full{
+      width: 100%;
+    }
+    .tbl-full-food{
+      width: 100%;
+    }
+    .tbl-34{
+      width: 34%;
+    }
+    table tr th{
+      border-bottom: 1px solid black;
+      padding: 1%;
+      text-align: left;
+    }
+    table tr td{
+      padding: 1% ;
+    }
+    .btn-primary{
+      background-color: #ff6b81;
+      padding: 1%;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn-primary:hover{
+      background-color: #ff4757;
+    }
+    .btn-secondary{
+      background-color: #7bed9f;
+      padding: 1%;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn-secondary:hover{
+      background-color: #2ed573;
+    }
+    .btn-danger{
+      background-color: #ff4757;
+      padding: 1%;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn-danger:hover{
+      background-color: #ff6b81;
+    }
+    /* css for menu */
+    .menu{
+     border-bottom: 1px solid grey;
+     }
+    .menu ul{
+     list-style-type:none;
+    }
+    .menu ul li{
+    padding: 1%;
+    display: inline;
+    }
+    .menu ul li a{
+      text-decoration: none;
+      font-weight: bold;
+      color:#ff6b81;
+    }
+    .menu ul li a:hover{
+      color:#ff4757;
+    }
+    /*CSS for main-content */
+    .main-content{
+      background-image: url('../images/backG.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 3% 0;
+    }
+      .col-4{
+        width: 18%;
+        background-color: white;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+      }
+      /* CSS for footer */
+      .footer{
+        background-color:#ff4757;
+        color:white;
+      }
+      .login{
+         border: 1px solid grey;
+         width: 30%;
+         margin: 15%;
+         margin-left: 30%;
+         padding: 4%;
+         background-color:#f2f2f2 ;
+         border-radius:10px;
+       }
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #FFF;
+  }
+  
+  /* Style the heading and paragraph text */
+  h1,
+  p {
+    text-align: center;
+  }
+  
+  /* Style the link */
+  a {
+    color: #4CAF50;
+  }
